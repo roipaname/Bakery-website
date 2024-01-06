@@ -1,0 +1,21 @@
+{
+    "name": "linsbakery",
+    "version": "1.0.0",
+    "description": "bakery",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "author": "paname",
+    "license": "ISC",
+    "dependencies": {
+        "gsap": "^3.11.3",
+        "parcel": "^2.7.0",
+        "simplex-noise": "^4.0.0",
+        "swiper": "^8.3.2",
+        "vite": "^3.0.5"
+    },
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    }
+}

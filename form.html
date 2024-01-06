@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="form.css" />
+
+    <script src="https://kit.fontawesome.com/40b1c2fd1d.js " crossorigin="anonymous "></script>
+    <script type="module" defer src="form.js"></script>
+    <title>Linspasteries</title>
+    <style>
+        .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="login-box ">
+        <h2>Information</h2>
+        <h4 class="err"></h4>
+        <form action="https://formsubmit.co/timah.linda3@gmail.com" method="POST">
+            <div class="user-box ">
+                <input type="text " name="name" placeholder="Username " class="name form-control" required>
+                <label>Name</label>
+            </div>
+            <div class="user-box ">
+                <input type="email " name="email" placeholder="Email address" class="email form-control" required>
+                <label>Email</label>
+            </div>
+            <div class="user-box ">
+                <input type="number " name="email" placeholder="Tel Number" class="tel form-control" required>
+                <label>Tel</label>
+            </div>
+            <div class="user-box user-box1 ">
+                <input type="text" list="select" name="cake type" placeholder="Cake Type" class="cake form-control" required>
+
+
+                <datalist class="form-control user-box1" id="select">   
+                    <option value="Vanilla cake"></option>
+                        <option value="Angel Food cake"></option>
+                        <option value="Chocolate Cake"></option>
+                          <option value="Sponge Cake"></option>
+                          <option value="Cheese Cake"></option>
+                          <option value="Vanilla Cake"></option>
+                          <option value="StrawBerry Cake"></option>
+                          <option value="Fruits Cake"></option>
+                          <option value="Red Velvet Cake"></option>
+                      </datalist>
+
+            </div>
+
+
+            <div class="user-box ">
+                <input type="text " name="type" placeholder="Occassion" class="breed form-control" required>
+                <label>Occassion/Event</label>
+            </div>
+
+            <div class="user-box ">
+                <input type="text " name="Age" placeholder="Age " class="number form-control" required>
+                <label>Client Age</label>
+            </div>
+            <div class="user-box ">
+                <input type="text " name="address" placeholder="Address " class="address form-control" required>
+                <label>Delivery adddress</label>
+            </div>
+
+            <button type="submit" class="submit btn" name="submit">
+                <span></span>
+                <span></span>
+                <span></span> Submit
+            </button>
+
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+
+</html>
